@@ -751,6 +751,10 @@ img {
 .modal-field {
   margin-bottom: 8px;
 }
+
+.modal-field-textarea {
+  margin-bottom: 16px;
+}
 .modal-label {
   font-weight: 400;
   font-size: 12px;
