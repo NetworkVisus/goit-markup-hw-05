@@ -803,9 +803,8 @@ img {
 .modal-textarea {
   width: 100%;
   height: 120px;
-  outline: none;
-  padding-left: 16px;
-  padding-top: 8px;
+  outline: transparent;
+  padding: 8px 16px;
   resize: none;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -815,6 +814,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
 }
 
 .modal-textarea:hover,
@@ -831,23 +832,25 @@ img {
 .input-check {
 }
 
-.modal-check-text span {
+.modal-field-checkbox {
+  margin-bottom: 24px;
+}
+
+.custom-checkbox-span {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 8px;
   fill: transparent;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .input-check:checked + .modal-check-text span {
   background-color: var(--pressed-state-color);
   fill: var(--alternative-white-color);
@@ -870,23 +873,26 @@ img {
   align-items: center;
 }
 
-.modal-check-text a {
+.privacy-link {
   text-decoration: underline;
   color: var(--primary-brand-color);
 }
 
 .modal-btn-submit {
+  display: block;
   background-color: var(--primary-brand-color);
   border: none;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   border-radius: 4px;
   color: var(--white-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  margin-top: 24px;
-  transform: translateX(50%);
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin: 0 auto;
 }
 
 .modal-btn-submit:hover,
