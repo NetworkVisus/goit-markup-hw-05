@@ -526,7 +526,7 @@ img {
 }
 
 .footer-submit-button {
-  min-width: 160px;
+  min-width: 165px;
   height: 40px;
   background-color: var(--primary-brand-color);
   color: var(--white-color);
@@ -835,13 +835,13 @@ img {
 }
 
 .custom-checkbox-span {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 8px;
   fill: transparent;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
