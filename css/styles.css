@@ -867,8 +867,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--icons-static-state);
-  display: inline-flex;
-  align-items: center;
 }
 
 .privacy-link {
