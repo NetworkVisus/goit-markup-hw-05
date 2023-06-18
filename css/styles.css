@@ -493,11 +493,11 @@ img {
 }
 
 .footer-submit {
+}
+
+.footer-submit-form {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
   gap: 24px;
-  margin: 0 0 0 auto;
 }
 
 .footer-submit-label {
@@ -515,14 +515,16 @@ img {
   background-color: transparent;
   border: 1px solid var(--white-color);
   border-radius: 4px;
-  padding-left: 24px;
-}
-
-.footer-submit-input::placeholder {
+  padding-left: 16px;
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+  color: var(--white-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+.footer-submit-input::placeholder {
   color: var(--white-color);
 }
 
