@@ -486,13 +486,11 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 .footer-logo-container {
   margin-right: 120px;
-}
-
-.footer-submit {
 }
 
 .footer-submit-form {
@@ -511,14 +509,13 @@ img {
 .footer-submit-input {
   width: 264px;
   height: 40px;
-  color: var(--white-color);
   background-color: transparent;
   border: 1px solid var(--white-color);
   border-radius: 4px;
   padding-left: 16px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -529,7 +526,7 @@ img {
 }
 
 .footer-submit-button {
-  width: 160px;
+  min-width: 160px;
   height: 40px;
   background-color: var(--primary-brand-color);
   color: var(--white-color);
@@ -538,17 +535,16 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  transform: translateY(20px);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
 .footer-submit-icon {
+  margin-left: 16px;
   fill: var(--white-color);
 }
 
