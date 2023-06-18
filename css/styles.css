@@ -747,17 +747,21 @@ img {
 }
 .modal-form {
 }
+
+.modal-field {
+  margin-bottom: 8px;
+}
 .modal-label {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.21;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--icons-static-state);
   margin-bottom: 4px;
+  display: block;
 }
 .input-modal-container {
   position: relative;
-  margin-bottom: 8px;
 }
 .modal-input {
   width: 100%;
