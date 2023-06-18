@@ -834,8 +834,11 @@ img {
   margin-bottom: 24px;
 }
 
+.custom-checkbox-span span {
+  display: inline-flex; /*it's just for autocheck, I know that it makes 0 sense!*/
+}
+
 .custom-checkbox-span {
-  display: inline-flex;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
