@@ -474,6 +474,10 @@ img {
   justify-content: center;
 }
 
+.footer-social-container {
+  margin-right: 80px;
+}
+
 .footer-icon {
   fill: var(--alternative-white-color);
 }
@@ -486,7 +490,6 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
 }
 
 .footer-logo-container {
